@@ -1,19 +1,17 @@
 
 to run face recognition models:
 
-cd C:\Users\HP\Desktop\AI_models\pc_face_reco
-conda activate yolov5 
+cd path_to_Restaurant_management_with_ai\pc_face_reco 
 python main_recog.py
 
 
 to run YOLO_model:
 
-cd C:\Users\HP\Desktop\AI_models\yolo_env\yolov5
-conda activate yolov5 
+cd path_to_Restaurant_management_with_ai\yolo_env\yolov5 
 python detect.py --weights C:\Users\HP\Desktop\AI_models\yolo\weights/best.pt --source 0 --img-size 1280 --conf 0.4
 
 
 to run dashboard:
 
-cd C:\Users\HP\Desktop\AI_models\dashboard
+cd path_to_Restaurant_management_with_ai\dashboard
 streamlit run main.py
